@@ -56,7 +56,7 @@ const ListOfLawyer = ({ data: { loading, error, allCats } }) => {
   return (
     <Ul>
       {allCats.map((ch, i) => (
-        <Li key={ch.id}>
+        <Li key={ch._id}>
           <Card>
             <Container>
               <Avatar />

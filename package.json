@@ -8,7 +8,7 @@
   "description": "First-Project Become Full-Stack",
   "repository": {
     "type": "git",
-    "url": "git clone https://noney1412@bitbucket.org/noney1412/diglawyer.git"
+    "url": "git clone https://github.com/noney1412/BoilerPate-NextApolloStyleComponentGraphQLAntDesign"
   },
   "scripts": {
     "dev": "babel-node server/index.js",
