@@ -1,0 +1,21 @@
+{
+  "presets": ["next/babel", "env"],
+  "plugins": [
+    [
+      "styled-components",
+      {
+        "ssr": true,
+        "displayName": true,
+        "preprocess": true
+      }
+    ],
+    ["transform-class-properties"], //เพิ่มอันนี้จะให้ใช้ Class Property ได้
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "style": false
+      }
+    ]
+  ]
+}

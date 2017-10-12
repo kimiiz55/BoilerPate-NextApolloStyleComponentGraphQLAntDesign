@@ -1,0 +1,50 @@
+{
+  "name": "apolloboillerplate",
+  "version": "1.0.0",
+  "author": {
+    "name": "Chanon Panpila",
+    "email": "nonpanpila@gmail.com"
+  },
+  "description": "First-Project Become Full-Stack",
+  "repository": {
+    "type": "git",
+    "url": "git clone https://noney1412@bitbucket.org/noney1412/diglawyer.git"
+  },
+  "scripts": {
+    "dev": "babel-node server/index.js",
+    "dev2": "next ",
+    "build": "next build ",
+    "start": "next start ",
+    "babel-node": "babel-node --presets=env"
+  },
+  "dependencies": {
+    "antd": "^2.13.4",
+    "apollo-server-express": "^1.1.6",
+    "babel-plugin-import": "^1.6.0",
+    "babel-plugin-react-transform": "^3.0.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "body-parser": "^1.18.2",
+    "cookie": "^0.3.1",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "graphql": "^0.11.7",
+    "graphql-tools": "^2.2.1",
+    "isomorphic-fetch": "^2.2.1",
+    "mongoose": "^4.12.1",
+    "next": "^4.0.1",
+    "nodemon": "^1.12.1",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-apollo": "^1.4.16",
+    "react-dom": "^16.0.0",
+    "react-fontawesome": "^1.6.1",
+    "styled-components": "^2.2.1"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-styled-components": "^1.2.1",
+    "babel-preset-env": "^1.6.0"
+  }
+}
